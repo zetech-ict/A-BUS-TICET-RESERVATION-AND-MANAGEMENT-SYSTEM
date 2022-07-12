@@ -24,7 +24,7 @@
         <div class="container-fluid">
             <h3>Bus Ticket Booking System</h3>
             <div class="navbar-right">
-                <form action="index.php" method="post" class="form-inline">
+                <form action="./loginValidaton.php" method="post" class="form-inline">
                     <input type="text" name="uname" placeholder="Username" class="form-control-sm mr-1" />
                     <input type="password" name="upass" placeholder="Password" class=" form-control-sm mr-1" />
                     <input type="submit" name="login" value="Login" class="btn btn-info btn-sm" />
@@ -37,7 +37,7 @@
     </div>
 
     <h4 class="my-3">Create an Account</h4>
-    <form action="index.php" method="post">
+    <form action="./signupValidation.php" method="post">
         <div class="form-group row">
             <label for="uname" class="col-sm-2 col-form-label">Username</label>
             <div class="col-sm-7">
@@ -48,7 +48,7 @@
         <div class="form-group row">
             <label for="name" class="col-sm-2 col-form-label">Name</label>
             <div class="col-sm-7">
-                <input name="name" type="text" class="form-control" id="inputName" placeholder="Full Name" />
+                <input name="fullname" type="text" class="form-control" id="inputName" placeholder="Full Name" />
             </div>
             <div class="col-sm-2" id="infoName"></div>
         </div>
@@ -66,16 +66,18 @@
             </div>
             <div class="col-sm-2" id="infoPass"></div>
         </div>
-
         <div class="form-group row">
-            <label class="col-form-legend col-sm-2" for="utype">User Type</label>
-            <div class="col-sm-7 px-5">
-                <input class="form-check-input" type="radio" name="utype" id="radioPass" value="3" checked> Passenger <br/>
-                <input class="form-check-input" type="radio" name="utype" id="radioBO" value="2"> Bus Owner
+            <label for="upass" class="col-sm-2 col-form-label">Confirm Password</label>
+            <div class="col-sm-7">
+                <input name="Confirmpassword" type="password" class="form-control" id="inputPassword" placeholder=" Confirm Password">
             </div>
+            <div class="col-sm-2" id="infoPass"></div>
         </div>
 
-
+        <div class = "form-group row">
+        <input type="submit" name="submit" value="create Account" class="btn btn-info btn-sm" />
+        </div>
+</form>
         <footer class="footer">
             <div class="row p-4">
                 <div class="col-md-4">KTS, owned and operated by Kenya Limited, is a premium online and on-demand service provider committed to make your life convenient, easier and smarter.<br/>© 2022 KTS · All Rights Reserved</div>

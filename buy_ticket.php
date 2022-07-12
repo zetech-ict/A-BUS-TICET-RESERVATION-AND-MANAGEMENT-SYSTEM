@@ -25,6 +25,11 @@
     <nav class="navbar fixed-top navbar-default header">
         <div class="container-fluid">
             <h3>Bus Ticket Booking System</h3>
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+        <li class="nav-item">
+          <a class="nav-link active" aria-current="page" href="./profile.php">Profile</a>
+        </li>
+    </ul>
             <div class="navbar-right">Welcome <a href="/index.php?logout=1"><button class="btn btn-success ml-3 btn-sm">Logout</button></a></div>
         </div>
     </nav>
@@ -36,7 +41,7 @@
                 <li><a href="history.php" '.(($file == 'history ') ? 'class="active" ' : ' ').'><i class="fa fa-history"></i> History</a></li>
             </ul>
         </div>
-        <form action="" method="get">
+        <form action="./booking_validation.php" method="post">
             <div class="form-group row">
                 <label for="from" class="col-sm-2 col-form-label">From</label>
                 <div class="col-sm-7 well">
