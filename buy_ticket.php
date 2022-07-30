@@ -18,7 +18,7 @@
     <link rel="stylesheet" href="css/bootstrap-datepicker.min.css" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 
 <body>
@@ -36,9 +36,9 @@
     <div class="row">
         <div class="col-md-2 sidebar">
             <ul>
-                <li><a href="buy_ticket.php" '.(($file == 'buy_ticket ') ? 'class="active" ' : ' ').'><i class="fa fa-ticket"></i> Buy Ticket</a></li>
-                <li><a href="profile.php" '.(($file == 'profile ') ? 'class="active" ' : ' ').'><i class="fa fa-address-card"></i> My Profile</a></li>
-                <li><a href="history.php" '.(($file == 'history ') ? 'class="active" ' : ' ').'><i class="fa fa-history"></i> History</a></li>
+                <li><a href="buy_ticket.php" ><i class="fa fa-ticket"></i> Buy Ticket</a></li>
+                <li><a href="profile.php" ><i class="fa fa-address-card"></i> My Profile</a></li>
+                <li><a href="history.php" ><i class="fa fa-history"></i> History</a></li>
             </ul>
         </div>
         <form action="./booking_validation.php" method="post">

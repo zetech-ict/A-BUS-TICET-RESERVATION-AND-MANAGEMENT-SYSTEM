@@ -34,6 +34,9 @@
             <div class="navbar-right">Welcome <a href="/index.php?logout=1"><button class="btn btn-success ml-3 btn-sm">Logout</button></a></div>
         </div>
     </nav>
+    
+    
+
                     <div class="d-flex p-2 bd-highlight"> 
                     <table class="table">
   <thead>
@@ -68,8 +71,16 @@
                    
                     ?>
   </tbody>
-</table>                   
+</table>
+
+                 
+                   
                     </div>
+
+                    <!--[if lt IE 7]>
+            <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
+        <![endif]-->
+
                     <script src="" async defer></script>
 </body>
 

@@ -16,7 +16,7 @@
     <link rel="stylesheet" type="text/css" href="css/style.css?'.date('his').'" />
     <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
     <script type="text/javascript" src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
-    <link rel="stylesheet" href="">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
 </head>
 
 <body>
@@ -91,10 +91,10 @@
                 </div>
                 <div class="col-md-4 text-center text-light">
                     <ul class="list-null">
-                        <li><a target="_blank" href="//facebook.com/#"><i class="fa fa-facebook"></i></a></li>
-                        <li><a target="_blank" href="//www.instagram.com/#"><i class="fa fa-instagram"></i></a></li>
-                        <li><a target="_blank" href="//www.linkedin.com/#"><i class="fa fa-linkedin"></i></a></li>
-                        <li><a target="_blank" href="//twitter.com/#"><i class="fa fa-twitter"></i></a></li>
+                        <li><a target="_blank" href="//facebook.com/#"><i class="fa-brands fa-facebook"></i></a></li>
+                        <li><a target="_blank" href="//www.instagram.com/#"><i class="fa-brands fa-instagram"></i></a></li>
+                        <li><a target="_blank" href="//www.linkedin.com/#"><i class="fa-brands fa-linkedin"></i></a></li>
+                        <li><a target="_blank" href="//twitter.com/#"><i class="fa-brands fa-twitter"></i></a></li>
                     </ul>
                 </div>
             </div>
